@@ -27,7 +27,7 @@ The FormScreen is where your productivity journey begins or evolves. Whether you
 
 ## Getting Started
 To get started with Goals_App, follow these steps:
-1. **Clone the Repository**: `git clone https://github.com/yourusername/goals_app.git`
+1. **Clone the Repository**: `git clone https://github.com/Maullin1996/goals_app.git`
 2. **Navigate to the Project Directory**: `cd goals_app`
 3. **Install Dependencies**: `flutter pub get`
 4. **Run the App**: `flutter run`
