@@ -1,0 +1,24 @@
+name: goals_app
+description: "
+  Goals_App is a TODO application built with Flutter, featuring three main screens: HomeScreen for listing TODOs, 
+  DetailsScreen for detailed task information and interactions, and FormScreen for creating and editing TODO items. 
+  Stay organized and manage your tasks efficiently with this dynamic app."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
