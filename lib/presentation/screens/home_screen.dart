@@ -14,20 +14,18 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final listTodos = ref.watch(listStorageProvider);
     final TextTheme textStyle = Theme.of(context).textTheme;
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Center(
-            child: Text('TODO List', style: textStyle.displayLarge),
-          ),
-          backgroundColor: AppColors.primaryVariant,
-        ),
-        floatingActionButton: FloatingActionButtonCustom(
-          onPressed: () {
-            context.push('/form');
-          },
-        ),
-        body: Padding(
+    return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('TODO List', style: textStyle.displayLarge)),
+        backgroundColor: AppColors.primaryVariant,
+      ),
+      floatingActionButton: FloatingActionButtonCustom(
+        onPressed: () {
+          context.push('/form');
+        },
+      ),
+      body: SafeArea(
+        child: Padding(
           padding: const EdgeInsets.all(AppSpacing.small),
           child: SingleChildScrollView(
             child: Column(
