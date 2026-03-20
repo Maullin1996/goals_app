@@ -1,33 +1,52 @@
-# Goals_App
+# Goals App
 
-**Goals_App** is an intuitive and dynamic TODO application built using Flutter. Whether you're juggling work projects, personal goals, or daily tasks, Goals_App helps you stay organized and on top of things.
+Aplicacion de TODOs hecha en Flutter para organizar metas, proyectos y tareas diarias. Incluye listado de metas, detalle con tareas internas y formularios para crear o editar.
 
-## Features
-- Create and manage TODO items with ease.
-- Track completion of individual tasks within each TODO.
-- Seamlessly navigate between screens to view, edit, and update your tasks.
+## Caracteristicas
+1. Crear, editar y eliminar metas (TODOs).
+2. Marcar tareas como completadas dentro de cada meta.
+3. Navegacion fluida entre listado, detalle y formulario.
 
-## Screens Overview
+## Tecnologias
+1. Flutter
+2. Dart
 
-### HomeScreen
-The HomeScreen is the heart of Goals_App. It serves as your dashboard, showcasing a collection of cards, each representing a TODO item. Here, you'll find:
-- **TODO Summary**: Each card provides a snapshot of the TODO, including its title, creation date, and task completion status.
-- **Quick Actions**: A button to swiftly add a new TODO, allowing you to capture your thoughts and tasks as they come.
+## Estructura General
+1. `lib/` contiene la logica y las pantallas de la app.
+2. `assets/` contiene las imagenes usadas en la documentacion.
 
-### DetailsScreen
-Dive deeper into each TODO with the DetailsScreen, where all the nitty-gritty details come to life. This screen offers:
-- **Full Information Display**: View the complete title, description, and task list for each TODO.
-- **Interactive Task List**: Check off tasks as you complete them, giving you a sense of accomplishment.
-- **Action Buttons**: Easily edit or delete the TODO with dedicated buttons, ensuring you maintain control over your task list.
+## Pantallas
 
-### FormScreen
-The FormScreen is where your productivity journey begins or evolves. Whether you're creating a new TODO or refining an existing one, this screen provides:
-- **User-Friendly Form**: Enter the title, description, and tasks associated with your TODO in an intuitive and organized manner.
-- **Action Buttons**: Save your changes or cancel the action with ease, ensuring a smooth user experience.
+### Home Screen
+Vista principal con tarjetas de cada meta y acceso rapido para agregar nuevas.
 
-## Getting Started
-To get started with Goals_App, follow these steps:
-1. **Clone the Repository**: `git clone https://github.com/Maullin1996/goals_app.git`
-2. **Navigate to the Project Directory**: `cd goals_app`
-3. **Install Dependencies**: `flutter pub get`
-4. **Run the App**: `flutter run`
+![Home Screen](assets/image/home_screen.png)
+![Home Screen (variante)](assets/image/home_screen_2.png)
+
+### Details Screen
+Detalle completo de una meta con su lista de tareas y acciones.
+
+![Details Screen](assets/image/details_screen.png)
+![Details Screen (variante)](assets/image/details_screen_2.png)
+
+### Form Screen
+Formulario para crear o actualizar una meta con sus tareas.
+
+![Form Screen](assets/image/forms_screen.png)
+![Form Screen (variante)](assets/image/forms_screen_2.png)
+
+## Como Ejecutar
+1. Instala dependencias:
+
+```bash
+flutter pub get
+```
+
+2. Ejecuta la app:
+
+```bash
+flutter run
+```
+
+## Notas
+Las imagenes de esta documentacion estan en `assets/image/`. Si deseas moverlas a `assets/images/`, tambien puedo actualizar las rutas.
